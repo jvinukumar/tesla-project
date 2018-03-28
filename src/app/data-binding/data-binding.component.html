@@ -1,0 +1,9 @@
+
+<input type="text" [(ngModel)]="title">
+<button class="primary btn-primary" (click)="validate()">Validate using auth service</button>
+<div *ngIf="!verified" style="color:red">
+    text entered is not texas 
+</div>
+<div>
+    <app-dbc [incomingdata]="title"></app-dbc>
+</div>

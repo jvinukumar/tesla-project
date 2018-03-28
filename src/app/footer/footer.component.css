@@ -1,0 +1,15 @@
+.navbar-nav {
+   
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+#footernavbar {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
